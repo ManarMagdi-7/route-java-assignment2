@@ -3,7 +3,6 @@ import java.util.Scanner;
 public class Main {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
-
         int rows = 5;
         int cols = 6;
         char[][] seats = new char[rows][cols];
@@ -64,16 +63,14 @@ public class Main {
     }
 
     public static void displayMenu() {
-        System.out.println("========================================");
         System.out.println("              MAIN MENU                 ");
-        System.out.println("========================================");
+        System.out.println("****************************************");
         System.out.println("1. Display Seats");
         System.out.println("2. Book Seat");
         System.out.println("3. Cancel Booking");
         System.out.println("4. Show all movies");
         System.out.println("5. Show number of available and booked seats");
         System.out.println("0. Exit");
-        System.out.println("========================================");
     }
 
     public static void displaySeats(char[][] seats, int rows, int cols) {
